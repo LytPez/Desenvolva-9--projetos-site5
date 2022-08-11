@@ -1,8 +1,16 @@
+/*
+definindo espaçamento externo e interno, 
+adicionando cor de fundo com degrade */
 body{
   margin: 0px;
   padding: 0px;
   background-color: rgb(239,215,197,100);
 }
+
+/*
+definindo cor de fundo, altura, centralizando na horizontal, e espaçamento 
+equivalente entre um item e outro
+*/
 header{
   background-color: rgb(66,35,22,100);
   display: flex;
@@ -10,37 +18,77 @@ header{
   justify-content: space-between;
   align-items: center;
 }
+
+/*
+defindo cor, e espaçamento externo a esquerda
+*/
 header h2{
   color: rgb(239,215,197,100);
   margin-left: 10px;
 }
+
+/*
+alinhando na mesma linha, definindo espaçamento externo a direita
+removendo estilo de lista.
+*/
 header ul{
   display: flex;
   margin-right: 10px;
+  list-style: none;
 }
+
+/*
+ definindo cor,  espaçamento externo a direita, removendo decoração do texto
+*/
 header a{
   color: rgb(239,215,197,100);
   margin-right: 10px;
   text-decoration: none;
 }
+
+/*
+definindo cor de fundo ao link quando o cursor estiver em cima dele
+*/
 header a:hover{
   color: sandybrown;
 }
+
+/*
+alinhando em colunas
+*/
 main{
   display: flex;
   flex-direction: column;
 }
+
+/*
+definindo largura total do site
+*/
 main img{
   width: 100vw;
 }
+
+/*
+definindo cor de fundo
+*/
 main h2{
   color: rgb(66,35,22,100);  
 }
+
+/*
+alinhando ao centro
+*/
 .containers{
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+/*
+alinhando ao centro organizados por colunas,
+defindo cor de fundo, altura largura,
+bordas arredondas e espaçamento externo
+*/
 .container{
   display: flex;
   justify-content: center;
@@ -52,12 +100,24 @@ main h2{
   border-radius: 10px;  
   margin: 5px;
 }
+
+/*
+defindo largura
+*/
 .container img{
   width: 150px;
 }
+
+/*
+defindo cor
+*/
 .container h3{
   color: rgb(239,215,197,100);
 }
+
+/*
+alinhando ao centro organizado por colunas
+*/
 .contact{
   display: flex;
   flex-direction: column;
@@ -65,11 +125,20 @@ main h2{
   align-items: center;
 }
 
+/*
+organziando em colunas
+definindo espaçamento externo
+*/
 .contact form{
   display: flex;
   flex-direction: column;
   margin:10px;
 }
+
+/*
+defindo cor de fundo, cor, tamanho da font, espaçamento interno
+espaçamento externo, bordas arredondas, e largura
+*/
 .contact input{
   background-color: rgb(66,35,22,100);
   color: rgb(239,215,197,100);
@@ -79,12 +148,21 @@ main h2{
   margin: 5px;
   width: 600px;
 }
+
+/*
+definindo cor de fundo, cor, bordas arredondas, e espaçamento externo
+*/
 .contact textarea{
   background-color: rgb(66,35,22,100);
   color: rgb(239,215,197,100);
   border-radius: 8px;
   margin: 5px;
 }
+
+/*
+defindo cor de fundo, cor, tamanho da font,
+bordas arredondas, largura, e espaçamento externo
+*/
 .contact button{
   background-color: rgb(66,35,22,100);
   color: rgb(239,215,197,100);
@@ -93,6 +171,11 @@ main h2{
   width: 200px;
   margin: 5px;
 }
+
+/*
+organizando em colunas, definindo cor de fundo,
+epaçamento externo ao topo, e espaçamento interno
+*/
 footer{
   display: flex;
   flex-direction: column;
@@ -100,6 +183,10 @@ footer{
   margin-top: 40px;
   padding: 10px;
 }
+
+/*
+definindo espaçamento externo a esquerda, e cor
+*/
 footer p{
   margin-left: 10px;
   color: rgb(239,215,197,100);
